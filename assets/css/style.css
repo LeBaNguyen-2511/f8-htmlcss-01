@@ -112,20 +112,17 @@ a {
 .hero-wrap {
     position: relative;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     height: calc(100vh - 90px);
     background: #e6f0ff;
 }
 
-.hero {
-    margin-top: 118px;
-}
-
-.hero .info {
+.hero-wrap .info {
     width: 51%;
 }
 
-.hero .sub-title {
+.hero-wrap .sub-title {
     color: #687690;
     font-weight: 500;
     font-size: 1.8rem;
@@ -133,7 +130,7 @@ a {
     letter-spacing: 0.01em;
 }
 
-.hero .title {
+.hero-wrap .title {
     margin-top: 8px;
     color: #000336;
     font-weight: 700;
@@ -141,7 +138,7 @@ a {
     line-height: 1.1875;
 }
 
-.hero .desc {
+.hero-wrap .desc {
     margin-top: 30px;
     color: #5a6473;
     font-weight: 400;
@@ -149,12 +146,12 @@ a {
     line-height: 1.78;
 }
 
-.hero .hero-cta {
+.hero-wrap .hero-cta {
     min-width: 170px;
     margin-top: 40px;
 }
 
-.hero .hero-img {
+.hero-wrap .hero-img {
     position: absolute;
     right: calc((100vw - 1110px) / 2 - 100px);
     bottom: 0;
