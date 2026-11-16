@@ -60,8 +60,9 @@ a {
 }
 
 .hero-wrap {
+    position: relative;
     display: flex;
-    height: 100vh;
+    height: calc(100vh - 90px);
     background-color: #e6f0ff;
 }
 
